@@ -14,7 +14,17 @@ void input()
         if (n <= 20) {
             break;
         }
-        cout << "Invalid input. Please enter a number between 1 and 20." << endl;
+        else {
+            cout << "Invalid input. Please enter a number between 1 and 20." << endl; 
+        
+        }
+    }
+    cout<<"\n===================================\n";
+    cout<<"Enter the elements: ";
+    cout<<"\n===================================\n";
+
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
     }
 }
 
